@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raj Wheels-rent your fav car</title>
+    <link rel="stylesheet" href="Index.css" />
+    <script
+      src="https://kit.fontawesome.com/0db2d59c5a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="#" class="logo"><span>Raj</span>wheels</a>
+      <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#vehicles">Vehicles</a>
+        <a href="#services">Services</a>
+        <a href="#featured">Featured</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div id="login-btn">
+        <button class="btn">Login <i class="fa-regular fa-user"></i></button>
+      </div>
+    </div>
+    <div class="login_form">
+      <span id="close_form" class="fa-regular fa-circle-xmark"></span>
+      <form action="">
+        <h3>Login Here</h3>
+        <input type="email" placeholder="email" class="input_field" />
+        <input type="password" placeholder="password" class="input_field" />
+        <p>forgot your password <a href="#">click here</a></p>
+        <input type="submit" value="login now" class="btn" />
+        <p>or login with</p>
+        <div class="button">
+          <a href="#" class="btn">Google</a>
+          <a href="#" class="btn">facebook</a>
+        </div>
+        <p>don't have an account <a href="#">create one</a></p>
+      </form>
+    </div>
+    <section class="home" id="home">
+      <h1>find your car</h1>
+      <img
+        src="https://automatrix-cms.mo.cloudinary.net/content/1/images/many-cars.png?tx=q_80,w_660"
+        alt="homecars"
+      />
+      <a href="#" class="btn home-parallax" data-speed="7">explore cars</a>
+    </section>
+    <form action="" class="hero-form">
+      <div class="input-wrapper">
+        <label for="input-1" class="input-label">Car, model, or brand :</label>
+
+        <input
+          type="text"
+          name="car-model"
+          id="input-1"
+          class="input-field"
+          placeholder="What car are you looking?"
+        />
+      </div>
+
+      <div class="input-wrapper">
+        <label for="input-2" class="input-label">Max. monthly payment :</label>
+
+        <input
+          type="text"
+          name="monthly-pay"
+          id="input-2"
+          class="input-field"
+          placeholder="Add an amount in $"
+        />
+      </div>
+      <div class="input-wrapper">
+        <label for="input-3" class="input-label">Make Year</label>
+
+        <input
+          type="text"
+          name="year"
+          id="input-3"
+          class="input-field"
+          placeholder="Add a minimal make year"
+        />
+      </div>
+
+      <button type="submit" class="btn">Search</button>
+    </form>
+    <section class="icons_container">
+      <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+          <h3>200+</h3>
+          <p>branches</p>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>5000+</h3>
+          <p>cars sold</p>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+          <h3>600+</h3>
+          <p>Happy client</p>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>800+</h3>
+          <p>New cars </p>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="section featured_cars" id="featured_car">
+      <div class="container">
+        <div class="title_wrapper">
+          <h2 class="section_title">Featured cars</h2>
+          <a href="#" class="faetured_car_link">
+            <span>View more</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </a>
+        </div>
+        <ul class="car_list">
+          <li>
+            <div class="car_card">
+              <figure class="card_banner">
+                <img src="https://images.cars.com/in/v2/stock_photos/77aeca88-d0af-4824-bbfd-d84ce2538524/1af0ca3f-5236-47a5-a487-32b49ec94f27.png?w=1000" width="500" height="300"
+                class="w-100">
+              </figure>
+              <div class="content">
+                <div class="title_wrapper">
+                  <h3 class="card_title">
+                    <a href="#">Hyundai electric</a>
+                  </h3>
+                  <data class="year" value="2021">2021</data>
+                </div>
+                <ul class="card_list">
+                  <li class="card_list_item">
+                    <ion-icon name="people-outline"></ion-icon>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section> -->
+    </div>
+    <script src="Index.js"></script>
+  </body>
+</html>
